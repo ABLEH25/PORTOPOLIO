@@ -19,7 +19,7 @@ body{
 * menu
 */
 nav {
-    background-color:#27374D ;
+    background-color:#355872 ;
     color: aqua;
     position: sticky;
     top: 0;
@@ -62,7 +62,7 @@ nav  > .wrapper {
 *
 */
 header {
-    background-color: #526D82;
+    background-color: #7AAACE;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -111,8 +111,8 @@ header > .lalala{
     display: inline-block;
     background-color: black;
     color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 12px 28px;
+    border-radius: 50px;
     font-family: 'Times New Roman', Times, serif;
     transition: all 0.3s ease;
     text-decoration: none;
@@ -146,4 +146,46 @@ header > .lalala{
     border: 8px solid white;
 }
 
+.bagian-profil {
+    background-color: #9CD5FF;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+}
 
+.wrapper-profil  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.tex-profil {
+    background-color: #7AAACE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 800px;
+    width: 90%;
+    
+}
+.isi-profil {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    
+}
+
+.bagian-skill {
+    background-color: aqua;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+}
